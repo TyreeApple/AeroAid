@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BAE2DBE72D62A51A00E28EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE2DBCE2D62A51700E28EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE2DBD52D62A51700E28EBD;
+			remoteInfo = AeroAid;
+		};
+		BAE2DBF12D62A51A00E28EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE2DBCE2D62A51700E28EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE2DBD52D62A51700E28EBD;
+			remoteInfo = AeroAid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE2DBD62D62A51700E28EBD /* AeroAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AeroAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE2DBE62D62A51A00E28EBD /* AeroAidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeroAidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE2DBF02D62A51A00E28EBD /* AeroAidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeroAidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BAE2DBD82D62A51700E28EBD /* AeroAid */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AeroAid;
+			sourceTree = "<group>";
+		};
+		BAE2DBE92D62A51A00E28EBD /* AeroAidTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AeroAidTests;
+			sourceTree = "<group>";
+		};
+		BAE2DBF32D62A51A00E28EBD /* AeroAidUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AeroAidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE2DBD32D62A51700E28EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2DBE32D62A51A00E28EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2DBED2D62A51A00E28EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE2DBCD2D62A51700E28EBD = {
+			isa = PBXGroup;
+			children = (
+				BAE2DBD82D62A51700E28EBD /* AeroAid */,
+				BAE2DBE92D62A51A00E28EBD /* AeroAidTests */,
+				BAE2DBF32D62A51A00E28EBD /* AeroAidUITests */,
+				BAE2DBD72D62A51700E28EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE2DBD72D62A51700E28EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE2DBD62D62A51700E28EBD /* AeroAid.app */,
+				BAE2DBE62D62A51A00E28EBD /* AeroAidTests.xctest */,
+				BAE2DBF02D62A51A00E28EBD /* AeroAidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE2DBD52D62A51700E28EBD /* AeroAid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE2DBFA2D62A51A00E28EBD /* Build configuration list for PBXNativeTarget "AeroAid" */;
+			buildPhases = (
+				BAE2DBD22D62A51700E28EBD /* Sources */,
+				BAE2DBD32D62A51700E28EBD /* Frameworks */,
+				BAE2DBD42D62A51700E28EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BAE2DBD82D62A51700E28EBD /* AeroAid */,
+			);
+			name = AeroAid;
+			packageProductDependencies = (
+			);
+			productName = AeroAid;
+			productReference = BAE2DBD62D62A51700E28EBD /* AeroAid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE2DBE52D62A51A00E28EBD /* AeroAidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE2DBFD2D62A51A00E28EBD /* Build configuration list for PBXNativeTarget "AeroAidTests" */;
+			buildPhases = (
+				BAE2DBE22D62A51A00E28EBD /* Sources */,
+				BAE2DBE32D62A51A00E28EBD /* Frameworks */,
+				BAE2DBE42D62A51A00E28EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE2DBE82D62A51A00E28EBD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BAE2DBE92D62A51A00E28EBD /* AeroAidTests */,
+			);
+			name = AeroAidTests;
+			packageProductDependencies = (
+			);
+			productName = AeroAidTests;
+			productReference = BAE2DBE62D62A51A00E28EBD /* AeroAidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE2DBEF2D62A51A00E28EBD /* AeroAidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE2DC002D62A51A00E28EBD /* Build configuration list for PBXNativeTarget "AeroAidUITests" */;
+			buildPhases = (
+				BAE2DBEC2D62A51A00E28EBD /* Sources */,
+				BAE2DBED2D62A51A00E28EBD /* Frameworks */,
+				BAE2DBEE2D62A51A00E28EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE2DBF22D62A51A00E28EBD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BAE2DBF32D62A51A00E28EBD /* AeroAidUITests */,
+			);
+			name = AeroAidUITests;
+			packageProductDependencies = (
+			);
+			productName = AeroAidUITests;
+			productReference = BAE2DBF02D62A51A00E28EBD /* AeroAidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE2DBCE2D62A51700E28EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BAE2DBD52D62A51700E28EBD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BAE2DBE52D62A51A00E28EBD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BAE2DBD52D62A51700E28EBD;
+					};
+					BAE2DBEF2D62A51A00E28EBD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BAE2DBD52D62A51700E28EBD;
+					};
+				};
+			};
+			buildConfigurationList = BAE2DBD12D62A51700E28EBD /* Build configuration list for PBXProject "AeroAid" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE2DBCD2D62A51700E28EBD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BAE2DBD72D62A51700E28EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE2DBD52D62A51700E28EBD /* AeroAid */,
+				BAE2DBE52D62A51A00E28EBD /* AeroAidTests */,
+				BAE2DBEF2D62A51A00E28EBD /* AeroAidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE2DBD42D62A51700E28EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2DBE42D62A51A00E28EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2DBEE2D62A51A00E28EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE2DBD22D62A51700E28EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2DBE22D62A51A00E28EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE2DBEC2D62A51A00E28EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE2DBE82D62A51A00E28EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE2DBD52D62A51700E28EBD /* AeroAid */;
+			targetProxy = BAE2DBE72D62A51A00E28EBD /* PBXContainerItemProxy */;
+		};
+		BAE2DBF22D62A51A00E28EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE2DBD52D62A51700E28EBD /* AeroAid */;
+			targetProxy = BAE2DBF12D62A51A00E28EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAE2DBF82D62A51A00E28EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE2DBF92D62A51A00E28EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE2DBFB2D62A51A00E28EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AeroAid/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8C6U2K2U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tyreefranklinjr.AeroAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE2DBFC2D62A51A00E28EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AeroAid/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8C6U2K2U5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tyreefranklinjr.AeroAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAE2DBFE2D62A51A00E28EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8C6U2K2U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tyreefranklinjr.AeroAidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroAid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AeroAid";
+			};
+			name = Debug;
+		};
+		BAE2DBFF2D62A51A00E28EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8C6U2K2U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tyreefranklinjr.AeroAidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AeroAid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AeroAid";
+			};
+			name = Release;
+		};
+		BAE2DC012D62A51A00E28EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8C6U2K2U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tyreefranklinjr.AeroAidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AeroAid;
+			};
+			name = Debug;
+		};
+		BAE2DC022D62A51A00E28EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8C6U2K2U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tyreefranklinjr.AeroAidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AeroAid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE2DBD12D62A51700E28EBD /* Build configuration list for PBXProject "AeroAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE2DBF82D62A51A00E28EBD /* Debug */,
+				BAE2DBF92D62A51A00E28EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE2DBFA2D62A51A00E28EBD /* Build configuration list for PBXNativeTarget "AeroAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE2DBFB2D62A51A00E28EBD /* Debug */,
+				BAE2DBFC2D62A51A00E28EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE2DBFD2D62A51A00E28EBD /* Build configuration list for PBXNativeTarget "AeroAidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE2DBFE2D62A51A00E28EBD /* Debug */,
+				BAE2DBFF2D62A51A00E28EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE2DC002D62A51A00E28EBD /* Build configuration list for PBXNativeTarget "AeroAidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE2DC012D62A51A00E28EBD /* Debug */,
+				BAE2DC022D62A51A00E28EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE2DBCE2D62A51700E28EBD /* Project object */;
+}
