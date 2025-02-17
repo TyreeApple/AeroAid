@@ -29,6 +29,23 @@
 		BAE2DBF02D62A51A00E28EBD /* AeroAidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeroAidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BAE2DC072D62BF0900E28EBD /* Exceptions for "AeroAidTests" folder in "AeroAid" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AeroAidApp.swift,
+			);
+			target = BAE2DBD52D62A51700E28EBD /* AeroAid */;
+		};
+		BAE2DC082D62BF0900E28EBD /* Exceptions for "AeroAidTests" folder in "AeroAidTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AeroAidApp.swift,
+			);
+			target = BAE2DBE52D62A51A00E28EBD /* AeroAidTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BAE2DBD82D62A51700E28EBD /* AeroAid */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -37,6 +54,10 @@
 		};
 		BAE2DBE92D62A51A00E28EBD /* AeroAidTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BAE2DC072D62BF0900E28EBD /* Exceptions for "AeroAidTests" folder in "AeroAid" target */,
+				BAE2DC082D62BF0900E28EBD /* Exceptions for "AeroAidTests" folder in "AeroAidTests" target */,
+			);
 			path = AeroAidTests;
 			sourceTree = "<group>";
 		};
