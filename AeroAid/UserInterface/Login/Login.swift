@@ -7,8 +7,8 @@
 import SwiftUI
 
 struct AppColors {
-    static let mainColor = Color("PrimaryColor") 
-    static let backgroundColor = Color.white
+    static let mainColor = Color.orange
+    static let backgroundColor = Color.black
     static let secondaryText = Color.gray
 }
 
